@@ -1,62 +1,71 @@
-FileSystem Project
+# **FileSystem Project**
 
-A Java-based File System project with a Graphical User Interface (GUI) created using JFrame in NetBeans 23. This project implements key concepts of Object-Oriented Programming (OOP) and utilizes various data structures, including:
+A Java-based **File System Simulation** with both a **Command-Line Interface (CLI)** and a **Graphical User Interface (GUI)** using **JFrame**.  
+The project implements **Object-Oriented Programming (OOP)** concepts and several **data structures**:  
+- **Arrays**  
+- **Linked Lists**  
+- **Stacks**  
+- **Queues**  
+- **Trees** (specifically **AVL Trees**).  
 
-    Arrays
-    Linked Lists
-    Stacks
-    Queues
-    Trees (specifically AVL Trees)
+---
 
-🔧 Features
+## **📋 Table of Contents**
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Project Structure](#project-structure)
+4. [How to Run](#how-to-run)
+5. [Supported Commands](#supported-commands)
+6. [Screenshots](#screenshots)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-    Command-Line Interface (CLI):
-        Mimics a file system's command prompt.
-        Supports commands like mkdir, cd, ls, touch, rmv, and more.
-    Graphical User Interface (GUI):
-        Displays the current file system structure dynamically.
-        Provides input fields and output areas for easy interaction.
-    Data Structures:
-        Linked Lists for managing file and directory entries.
-        Stacks for tracking navigation paths.
-        Queues for task-based file creation/deletion.
-        AVL Trees for efficient file/directory lookup and organization.
-    Object-Oriented Design:
-        Classes such as FileSystem, Directory, File, Entry, Navigation, and Commands encapsulate logic cleanly.
+---
 
-🖥️ Technologies Used
+## **🚀 Features**
+- **Command-Line Interface (CLI):**  
+   - Mimics a terminal for interacting with the file system.  
+   - Supports creating, navigating, and deleting files and directories.
 
-    Programming Language: Java
-    IDE: NetBeans 23
-    GUI: Swing (JFrame, JPanel, JTextArea, JTextField, JTree, etc.)
+- **Graphical User Interface (GUI):**  
+   - Built using **Swing (JFrame)** for dynamic rendering of the file system structure.  
+   - Displays the current path, command input, and output in an intuitive layout.
 
-🚀 How to Run the Project
+- **Data Structures Implementation:**  
+   - **Linked Lists**: Manages directory entries (files and subdirectories).  
+   - **Stacks**: Tracks navigation paths (`cd` command).  
+   - **Queues**: Handles batch file operations (e.g., creating or deleting multiple files).  
+   - **AVL Trees**: Organizes and balances file system entries for efficient searching.
 
-    Clone the repository:
+- **Object-Oriented Design:**  
+   - Modularized classes for directories, files, navigation, and commands.
 
-    git clone https://github.com/username/repository.git
-    cd repository
+---
 
-    Open the project in NetBeans 23.
-    Build and run the project.
-    The GUI will open, allowing you to interact with the file system.
+## **🛠️ Technologies Used**
 
-📝 Commands Supported
+- **Programming Language**: Java  
+- **IDE**: NetBeans 23  
+- **GUI Library**: Swing (JFrame, JPanel, JTextArea, JTextField, etc.)  
+- **Version Control**: Git and GitHub  
 
-The project supports the following commands:
-Command	Description
-mkdir <name>	Create a new directory.
-cd <directory>	Change to a specified directory.
-touch <file>	Create a new file.
-touch -m <files> Create many files
-ls	List contents of the current folder.
-rmv -f <file>	Remove a specified file.
-rmv -m <files> Remove many files
-rmv -d <directory>	Remove a specified directory.
-path	Display the current directory path.
-exit	Exit the program.
+---
 
+## **📂 Project Structure**
 
-🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
+```plaintext
+FileSystem/
+│
+├── src/
+│   ├── com.mycompany.filesystem/
+│   │   ├── FileSystem.java         # Main class to run the program
+│   │   ├── Directory.java          # Directory class with linked list implementation
+│   │   ├── File.java               # File class
+│   │   ├── Entry.java              # Node class for directory/file entries
+│   │   ├── Navigation.java         # Stack implementation for navigation
+│   │   ├── Queue.java              # Queue implementation for batch operations
+│   │   ├── Commands.java           # Helper methods for command parsing
+│   │   ├── FileSystemGUI.java      # GUI implementation using JFrame
+│
+├── README.md                       # Project documentation
+└── .gitignore                      # Git ignore file
