@@ -73,15 +73,15 @@ FileSystem/
 
 ## **🖥️ Supported Commands
 Command	Description
-**mkdir <name>**	Create a new directory.
-**cd <directory>**	Change to a specified directory.
-**touch <file>**	Create a new file.
-**touch -m <files>**	Create multiple files.
-**ls**	List contents of the current folder.
-**ls -d**	List directories only.
-**ls -f**	List files only.
-**rmv -f <file>**	Remove a specified file.
-**rmv -d <directory>**	Remove a specified directory.
-**rmv -m <files>** Remove many files
-**path**	Display the current directory path.
-**exit**	Exit the program.
+- **mkdir <name>**	Create a new directory.
+- **cd <directory>**	Change to a specified directory.
+- **touch <file>**	Create a new file.
+- **touch -m <files>**	Create multiple files.
+- **ls**	List contents of the current folder.
+- **ls -d**	List directories only.
+- **ls -f**	List files only.
+- **rmv -f <file>**	Remove a specified file.
+- **rmv -d <directory>**	Remove a specified directory.
+- **rmv -m <files>** Remove many files
+- **path**	Display the current directory path.
+- **exit**	Exit the program.
