@@ -30,24 +30,6 @@ A Java-based File System project with a Graphical User Interface (GUI) created u
     IDE: NetBeans 23
     GUI: Swing (JFrame, JPanel, JTextArea, JTextField, JTree, etc.)
 
-📂 Project Structure
-
-FileSystem/
-│
-├── src/
-│   ├── com.mycompany.filesystem/
-│   │   ├── FileSystem.java         # Main class to start the program
-│   │   ├── Directory.java          # Directory class with linked list implementation
-│   │   ├── File.java               # File class
-│   │   ├── Navigation.java         # Stack implementation for navigation
-│   │   ├── Queue.java              # Queue implementation for tasks
-│   │   ├── Entry.java              # Linked list node for directory/file entries
-│   │   ├── Commands.java           # Helper for parsing commands
-│   │   ├── FileSystemGUI.java      # JFrame GUI implementation
-│
-├── README.md                       # Project description
-└── .gitignore                      # Git ignore file
-
 🚀 How to Run the Project
 
     Clone the repository:
