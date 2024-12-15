@@ -69,3 +69,37 @@ FileSystem/
 │
 ├── README.md                       # Project documentation
 └── .gitignore                      # Git ignore file
+
+
+## **▶️ How to Run**
+
+### **1. Clone the Repository**
+Use Git to clone the repository:
+```bash
+git clone https://github.com/username/FileSystemProject.git
+cd FileSystemProject
+
+2. Open the Project in NetBeans
+
+    Launch NetBeans 23 or later.
+    Open the project folder.
+    Ensure all dependencies (e.g., Java JDK 17+) are properly configured.
+
+3. Build and Run
+
+    Click the Run Project button in NetBeans (green play button).
+    The GUI window will launch, and you can begin interacting with the file system.
+
+🖥️ Supported Commands
+Command	Description
+mkdir <name>	Create a new directory.
+cd <directory>	Change to a specified directory.
+touch <file>	Create a new file.
+touch -m file1 file2	Create multiple files.
+ls	List contents of the current folder.
+ls -d	List directories only.
+ls -f	List files only.
+rmv -f <file>	Remove a specified file.
+rmv -d <directory>	Remove a specified directory.
+path	Display the current directory path.
+exit	Exit the program.
