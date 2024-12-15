@@ -16,9 +16,6 @@ The project implements **Object-Oriented Programming (OOP)** concepts and severa
 3. [Project Structure](#project-structure)
 4. [How to Run](#how-to-run)
 5. [Supported Commands](#supported-commands)
-6. [Screenshots](#screenshots)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
